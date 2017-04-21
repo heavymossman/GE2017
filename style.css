@@ -1,0 +1,40 @@
+/* unvisited link */
+a:link {
+    color: rgba(202, 73, 70, 0.8);
+    font-weight: bold; 
+}
+
+/* visited link */
+a:visited {
+    color: rgba(202, 73, 70, 0.8);
+    font-weight: bold; 
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(202, 73, 70, 1);
+    font-weight: bold; 
+}
+
+/* selected link */
+a:active {
+    color: rgba(202, 73, 70, 1);
+    font-weight: bold; 
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-toggleable-md .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
+h1, h2, h3, h4, h5 h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	font-family: 'Cabin', sans-serif;
+}
